@@ -76,7 +76,10 @@ body {
 }
 
 .header-container {
+    position: fixed;
+    top: 0;
     height:22px;
+    width:100%;
     background-image: url('../img/topbarbg.png');
     background-repeat: repeat-x;
     color:black;
