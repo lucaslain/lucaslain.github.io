@@ -121,6 +121,27 @@ body {
     width:48px;
 }
 
+.left-bar {
+    background-image:url('../img/mirror-left.png');
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    background-size:48px 48px;
+}
+
+.center-bar {
+    background-image:url('../img/mirror-middle.png');
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    background-size:48px 48px;
+}
+
+.right-bar {
+    background-image:url('../img/mirror-right.png');
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    background-size:48px 48px;
+}
+
 .item-bar {
     padding:0;
     margin:auto 3px;
@@ -155,26 +176,6 @@ body {
     filter: progid:DXImageTransform.Microsoft.Gradient( gradientType=0, startColor=0, EndColorStr=#ffffff);
 }
 
-.left-bar {
-    background-image:url('../img/mirror-left.png');
-    background-position: center bottom;
-    background-repeat: repeat-x;
-    background-size:48px 48px;
-}
-
-.center-bar {
-    background-image:url('../img/mirror-middle.png');
-    background-position: center bottom;
-    background-repeat: repeat-x;
-    background-size:48px 48px;
-}
-
-.right-bar {
-    background-image:url('../img/mirror-right.png');
-    background-position: center bottom;
-    background-repeat: repeat-x;
-    background-size:48px 48px;
-}
 
 .title_luk {
     font-size: 0.9em;
@@ -248,25 +249,6 @@ nav a:hover {
 .ie7 .title {
     padding-top: 20px;
 }
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -306,11 +288,49 @@ nav a:hover {
     }
 }
 
+@media only screen and (max-width: 568px) {
+    .header-container {
+        display:none;
+    }
+
+    .footer-container {
+        background: rgba(255, 255, 255, .5);
+    }
+
+    .left-bar,
+    .right-bar {
+      display:none;
+    }
+
+    .blur-box {
+        height:70px;
+        width:100%;
+    }
+
+    .center-bar {
+      background-image:none;
+      background-repeat: repeat-x;
+      background-size:48px 48px;
+    }
+
+    .bottom-bar {
+      margin-top:10px;
+    }
+
+    .reflection img {
+      display:none;
+    }
+
+}
+
 @media only screen and (min-width: 768px) {
 
 /* ====================
     WIDE: CSS3 Effects
    ==================== */
+    .blur-box {
+        display:none;
+    }
 
     .header-container,
     .main aside {
