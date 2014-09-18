@@ -326,7 +326,7 @@ nav a:hover {
 @media only screen and (max-width: 568px) {
     .item-desktop {
       padding:0;
-      margin:15px 5px 15px 5px;
+      margin:5px 2px 5px 2px;
       float:left;
       width:60px;
       height:70px;
