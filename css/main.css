@@ -192,14 +192,6 @@ body {
     filter: progid:DXImageTransform.Microsoft.Gradient( gradientType=0, startColor=0, EndColorStr=#ffffff);
 }
 
-.item-desktop {
-    padding:0;
-    margin:15px 8px 15px 8px;
-    float:left;
-    width:60px;
-    height:70px;
-}
-
 .item-desktop img {
     width:60px;
     height:60px;
@@ -332,6 +324,14 @@ nav a:hover {
 }
 
 @media only screen and (max-width: 568px) {
+    .item-desktop {
+      padding:0;
+      margin:15px 5px 15px 5px;
+      float:left;
+      width:60px;
+      height:70px;
+    }
+
     .header-container {
         display:none;
     }
@@ -366,7 +366,16 @@ nav a:hover {
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 569px) {
+
+    .item-desktop {
+      padding:0;
+      margin:15px 15px 15px 15px;
+      float:left;
+      width:60px;
+      height:70px;
+    }
+
 
 /* ====================
     WIDE: CSS3 Effects
