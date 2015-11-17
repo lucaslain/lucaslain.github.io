@@ -1,0 +1,15 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "JY92Q85S69.com.studentuniverse.triplingo",
+                "paths": [ "*" ]
+            },
+            {
+                "appID": "TeamID.BundleID2",
+                "paths": [ "/wwdc/news/", "/videos/wwdc/2015/*" ]
+            }
+        ]
+    }
+}
