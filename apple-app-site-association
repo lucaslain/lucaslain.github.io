@@ -4,7 +4,7 @@
         "details": [
             {
                 "appID": "JY92Q85S69.com.studentuniverse.triplingo",
-                "paths": [ "*" ]
+                "paths": [ "*", "/" ]
             },
             {
                 "appID": "TeamID.BundleID2",
